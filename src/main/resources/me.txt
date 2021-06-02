@@ -1,0 +1,24 @@
+--GET mostrar todos os jogos: /{games}
+--GET procurar jogos por: id /games/{id}
+--GET procurar jogos pelo nome: /games/name = {nome} **VAI PROCURAR COM O LIKE
+--GET procurar jogos pela descrição: /games/description= {description} **VAI PROCURAR COM LIKE
+--POST passando o corpo em formato JSON: /games
+    {
+        "name": "",
+        "description": "",
+        "price": "",
+        "category": ""
+        "image": ""
+    }
+--PUT passando o corpo em formato JSON e o ID: /games
+    {
+            "name": "",
+            "description": "",
+            "price": "",
+            "category": ""
+            "image": ""
+    }
+--DELETE passando o id na url: /games/{id}
+
+
+
